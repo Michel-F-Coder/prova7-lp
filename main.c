@@ -5,7 +5,6 @@ float nota1, nota2, nota3, nota4;
 char aluno[50];
 float media;
 float soma;
-int retornar;
 FILE *boletins;
 int menu;
 
@@ -51,7 +50,6 @@ void main()
         if (media >= 7)
         {
             printf("APROVADO\n");
-            
         }
         if (media < 5)
         {
@@ -89,7 +87,7 @@ void main()
             printf("ERRO");
         }
 
-        while (fscanf(boletins,"ALUNO: %s / Nota 1: %f / Nota 2: %f / Nota 3: %f / Nota 4: %f / Media final: %f", aluno, &nota1, &nota2, &nota3, &nota4, &media) == 6)
+        while (fscanf(boletins, "ALUNO: %s / Nota 1: %f / Nota 2: %f / Nota 3: %f / Nota 4: %f / Media final: %f", aluno, &nota1, &nota2, &nota3, &nota4, &media) == 6)
             ;
         {
             printf("ALUNO: %s / Nota 1: %.2f / Nota 2: %.2f / Nota 3: %.2f / Nota 4: %.2f / Media final: %.2f", aluno, nota1, nota2, nota3, nota4, media);

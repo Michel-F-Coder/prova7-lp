@@ -1,0 +1,1 @@
+ALUNO: asd / Nota 1: 4.00 / Nota 2: 5.00 / Nota 3: 6.00 / Nota 4: 7.00 / Media final: 5.50
